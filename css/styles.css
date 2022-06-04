@@ -226,7 +226,13 @@ footer h6 {
 
 .icon-footer {
   color: blue;
-  padding: 0 3%;
+}
+.icon-fix1{
+  padding-right: 0.2rem;
+}
+.icon-fix2{
+  padding-right: 0.2rem;
+  padding-left:1rem;
 }
 
 /* PHONE-SIZE */
