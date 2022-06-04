@@ -1,6 +1,8 @@
 /* TITLE SECTION */
 body {
   font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
 
 h1 {
@@ -43,6 +45,7 @@ h3 {
 }
 #title {
   background-color: #cc9544;
+  width: 100vw;
   padding: 4% 15%;
 }
 
@@ -50,6 +53,7 @@ h3 {
 #about-neighborhood {
   padding: 4% 15%;
   position: relative;
+  width: 100vw;
 }
 #about-neighborhood p {
   color: rgb(70, 70, 70);
@@ -80,6 +84,7 @@ h3 {
   background-color: #fcb54c;
   text-align: center;
   min-height: 31.25rem;
+  width: 100vw;
 }
 
 .carousel-inner {
@@ -109,6 +114,7 @@ h3 {
 .div-image {
   background-color: #fcb54c;
   text-align: center;
+  width: 100vw;
 }
 .image {
   width: 9.4rem;
@@ -123,6 +129,7 @@ h3 {
   text-align: center;
   padding: 3% 2%;
   position: relative;
+  width: 100vw;
 }
 .card {
   padding: 2% 3%;
@@ -163,7 +170,7 @@ h3 {
 
 .order {
   width: 15%;
-  height: 35%;
+  height: 45%;
 }
 .order-image1 {
   margin: 5% 8% 0 10%;
@@ -199,12 +206,13 @@ footer {
   background-color: #cc9544;
   padding: 2% 7%;
   text-align: center;
+  width: 100vw;
 }
 
 footer p {
-  display: inline-block;
   margin: 0 1%;
   color: rgb(219, 219, 219);
+  padding: 0 auto;
 }
 
 footer p:hover {
@@ -219,4 +227,89 @@ footer h6 {
 .icon-footer {
   color: blue;
   padding: 0 3%;
+}
+
+/* PHONE-SIZE */
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  #title-image {
+    height: 15rem;
+    width: 15rem;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
+  #title p {
+    font-size: 0.4rem;
+  }
+  #testimonials {
+    min-height: 25.25rem;
+  }
+  .testimonial-text {
+    color: white;
+    margin: 2% 3%;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .em-text {
+    text-align: center;
+    color: white;
+    margin: 2%;
+    font-size: 0.8rem;
+  }
+  .card-title {
+    font-size: 0.8rem;
+  }
+  .card-text {
+    font-size: 0.6rem;
+    padding-bottom: 1.5rem;
+  }
+
+  #ordering .btn {
+    height: 2rem;
+    width: 3rem;
+    text-decoration: none;
+    font-size: 0.6rem;
+    padding: 0.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .card {
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10%;
+    padding: 0.4rem;
+  }
+  #delivery {
+    padding: 4% 15%;
+    text-align: center;
+    position: relative;
+  }
+  .delivery-image {
+    height: 13.75rem;
+    width: 13.75rem;
+    border-radius: 50%;
+  }
+  #delivery p {
+    color: white;
+    padding: 0;
+    margin: 5% 0;
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+
+  .order {
+    width: 5rem;
+    height: 6rem;
+    margin-top: 5rem;
+  }
+  footer .icon {
+    color: blue;
+    padding: 0 3%;
+  }
+  .image {
+  width: 5.4rem;
+  height: 5.4rem;
 }
