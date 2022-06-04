@@ -1,0 +1,222 @@
+/* TITLE SECTION */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+h3 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+}
+#title p {
+  color: white;
+}
+#title-image {
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+}
+.col-photo {
+  text-align: center;
+}
+/* NAVIGATION BAR */
+.navbar {
+  margin-bottom: 1rem;
+  padding: 3% 3% 3% 0;
+}
+
+@media (max-width: 990px) {
+  .nav-link {
+    text-align: right;
+  }
+}
+.nav-link {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+#title {
+  background-color: #cc9544;
+  padding: 4% 15%;
+}
+
+/* ABOUT */
+#about-neighborhood {
+  padding: 4% 15%;
+  position: relative;
+}
+#about-neighborhood p {
+  color: rgb(70, 70, 70);
+}
+.about-box {
+  padding: 7%;
+  text-align: center;
+}
+.about-image {
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-bottom: 5%;
+  border-radius: 50%;
+}
+
+.icon {
+  color: #f8ac3b;
+  margin: 5% auto;
+  display: block;
+}
+.icon:hover {
+  color: #cc9544;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+  background-color: #fcb54c;
+  text-align: center;
+  min-height: 31.25rem;
+}
+
+.carousel-inner {
+  padding: 4% 8%;
+}
+.carousel-item {
+  padding: 0 10% 0;
+  margin-bottom: 0;
+}
+
+.testimonial-text {
+  color: white;
+  margin: 5%;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.em-text {
+  color: white;
+  margin: 4%;
+}
+
+#testimonials img {
+  padding-right: 0.8rem;
+}
+/* SAMPLE IMAGE */
+.div-image {
+  background-color: #fcb54c;
+  text-align: center;
+}
+.image {
+  width: 9.4rem;
+  height: 9.4rem;
+  margin: 0 1%;
+  margin-bottom: 0.3rem;
+  border-radius: 10px;
+}
+/* ORDERING */
+
+#ordering {
+  text-align: center;
+  padding: 3% 2%;
+  position: relative;
+}
+.card {
+  padding: 2% 3%;
+  margin: 2% 2%;
+}
+.head-pricing {
+  padding: 2% 2%;
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgb(70, 70, 70);
+}
+.card {
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+.card-1 {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.25);
+}
+.card-2 {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+}
+.card-3 {
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.25);
+}
+.card-4 {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.25);
+}
+
+#ordering .btn {
+  background-color: #cc9544;
+  color: white;
+}
+@media (min-width: 995px) {
+  .head-pricing {
+    margin-top: 70%;
+  }
+}
+
+.order {
+  width: 15%;
+  height: 35%;
+}
+.order-image1 {
+  margin: 5% 8% 0 10%;
+}
+.order-image2 {
+  margin: 5% 0 0 0;
+}
+
+/* DELIVERY */
+
+#delivery {
+  background-color: #fcb54c;
+  padding: 4% 15%;
+  text-align: center;
+  position: relative;
+}
+.delivery-image {
+  height: 18.75rem;
+  width: 18.75rem;
+  border-radius: 50%;
+}
+#delivery p {
+  color: white;
+  padding: 0;
+  margin: 5% 0;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #cc9544;
+  padding: 2% 7%;
+  text-align: center;
+}
+
+footer p {
+  display: inline-block;
+  margin: 0 1%;
+  color: rgb(219, 219, 219);
+}
+
+footer p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer h6 {
+  margin: 0.625rem;
+}
+
+.icon-footer {
+  color: blue;
+  padding: 0 3%;
+}

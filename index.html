@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Neighborhood Cafe</title>
+    <link rel="icon" href="image/favicon.ico" />
+    <!-- FONT-GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&family=Roboto:ital@1&family=Ubuntu:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/a01c83da19.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <section id="title">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="image/NCafe-logo.jpg" alt="" width="70" height="64" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggler"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggler">
+            <ul class="navbar-nav ms-auto" id="navbarTogglerDemo01">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-neighborhood">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ordering">Order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#delivery">Deliver</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- TITLE -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>The Neighborhood Cafe</h1>
+          <p>Home of Cebu's Fluffiest Pancakes!</p>
+          <h3>MONDAY - FRIDAY</h3>
+          <p>9:00AM - 10:00PM</p>
+          <h3>SATURDAY - SUNDAY</h3>
+          <p>7:00AM - 10:00PM</p>
+        </div>
+        <div class="col-photo col-lg-6">
+          <img id="title-image" src="image/NCafe-background.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about-neighborhood">
+      <div class="row">
+        <div class="about-box col-lg-4">
+          <img src="image/coffee.jpg" alt="Coffee" class="about-image" />
+          <i class="icon fa fa-solid fa-mug-hot fa-4x"></i>
+          <p>Brewed Coffee is fantastic and tastes good</p>
+        </div>
+        <div class="about-box col-lg-4">
+          <img src="image/food.jpg" alt="Food" class="about-image" />
+          <i class="icon fa fa-solid fa-burger fa-4x"></i>
+          <p>
+            You'll love how the food tastes over here and best dishes are served
+          </p>
+        </div>
+        <div class="about-box col-lg-4">
+          <img src="image/place.jpg" alt="" class="about-image" />
+          <i class="icon fa fa-solid fa-circle-check fa-4x"></i>
+          <p>Cozy and feels like you're definitely in a first class cafe</p>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-interval="2500"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonial-text">
+              Good coffee and a very big menu. We only had the clubhouse
+              sandwich but damn it was top tier 👌👌👌 We'll have to come back
+              for more.
+            </h2>
+            <img src="image/testimonial1.png" alt="testimonial1-image" />
+            <em class="em-text">Princess May Enriquez</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              Place, the atmosphere, the menu, and staff was great. Tasted their
+              chicken empanada and it tasted delicious.
+            </h2>
+            <img src="image/testimonial2.png" alt="testimonial2-image" />
+            <em class="em-text">Nicole Rey Arriesga</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              A very good hangout spot and great for lunch on Sundays. The seats
+              could be limited on peak times but they serve good food and good
+              coffee.
+            </h2>
+            <img src="image/testimonial3.png" alt="testimonial3-image" />
+            <em class="em-text">Krystal Gale</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+    <!-- SAMPLE IMAGE-->
+
+    <div class="div-image">
+      <div class="row">
+        <div class="col-lg-12">
+          <img class="image" src="image/sample1.jpg" alt="food-sample-1" />
+          <img class="image" src="image/sample2.jpg" alt="food-sample-2" />
+          <img class="image" src="image/sample3.jpg" alt="food-sample-3" />
+          <img class="image" src="image/sample4.jpg" alt="food-sample-4" />
+          <img class="image" src="image/sample5.jpg" alt="food-sample-5" />
+          <img class="image" src="image/sample6.jpg" alt="food-sample-6" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ORDERING-->
+    <section id="ordering">
+      <div class="row">
+        <div class="col-lg-3">
+          <h1 class="head-pricing">Easy Ordering at The Neighborhood Cafe</h1>
+        </div>
+        <div class="col-lg-9">
+          <div class="row">
+            <div class="card-1 card w-25">
+              <div class="card-body">
+                <h5 class="card-title">Order</h5>
+                <p class="card-text">
+                  Place your order for the food or drink you want
+                </p>
+                <a href="#" class="btn">Step 1</a>
+              </div>
+            </div>
+            <div class="card-2 card w-25">
+              <div class="card-body">
+                <h5 class="card-title">Pay</h5>
+                <p class="card-text">Proceed to your payment.</p>
+                <a href="#" class="btn">Step 2</a>
+              </div>
+            </div>
+
+            <div class="card-3 card w-25">
+              <div class="card-body">
+                <h5 class="card-title">Wait</h5>
+                <p class="card-text">
+                  Wait as we prepare them. It will take a little while.
+                </p>
+                <a href="#" class="btn">Step 3</a>
+              </div>
+            </div>
+            <div class="card-4 card w-25">
+              <div class="card-body">
+                <h5 class="card-title">Self Pick</h5>
+                <p class="card-text">The order is ready for take out.</p>
+                <a href="#" class="btn">Step 4</a>
+              </div>
+            </div>
+            <img
+              class="order order-image1"
+              src="image/order.png"
+              alt="order1"
+            />
+            <img
+              class="order order-image2"
+              src="image/order2.png"
+              alt="order2"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- DELIVER -->
+    <section id="delivery">
+      <div>
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="image/delivery.jpg" alt="" class="delivery-image" />
+          </div>
+          <div class="col-lg-6">
+            <p>For Orders, Call(032) 268-0427</p>
+            <p>SMS(0917) 321-6785</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        <i class="icon-footer fa fa-brands fa-facebook"></i>FB: The Neighborhood
+        Cafe
+      </p>
+      <p>
+        <i class="icon-footer fa fa-brands fa-instagram"></i>IG:
+        @neighborhoodcafe_cebu
+      </p>
+      <h6>© Copyright 2022 The Neighborhood Cafe</h6>
+    </footer>
+  </body>
+</html>
